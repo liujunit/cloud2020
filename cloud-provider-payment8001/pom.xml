@@ -12,6 +12,11 @@
     <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
+        <!--Spring Cloud Sleuth 与 zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <!--引入自定义的maven库的jar包-->
         <dependency>
             <groupId>com.atguigu.springcloud</groupId>
